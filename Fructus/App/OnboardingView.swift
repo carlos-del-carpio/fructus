@@ -13,7 +13,7 @@ struct OnboardingView: View {
     
     var body: some View {
         TabView {
-            ForEach(fruits[0..<5]) { item in
+            ForEach(fruits[0..<6]) { item in
                 FruitCardView(fruit: item)
             }
             .padding(.horizontal, 20)

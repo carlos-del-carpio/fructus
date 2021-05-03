@@ -23,6 +23,7 @@
 		47323FD3263F78030047177D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47323FD2263F78030047177D /* OnboardingView.swift */; };
 		47323FD6263F7BF30047177D /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47323FD5263F7BF30047177D /* FruitModel.swift */; };
 		47323FD9263F7D130047177D /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47323FD8263F7D130047177D /* FruitData.swift */; };
+		475ECD222640898800BF2ECD /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ECD212640898800BF2ECD /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		47323FD2263F78030047177D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		47323FD5263F7BF30047177D /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		47323FD8263F7D130047177D /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		475ECD212640898800BF2ECD /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				472C658126401C9E0099CC04 /* SourceLinkView.swift */,
 				470719FC26404F3600C13FB2 /* FruitNutrientsView.swift */,
 				47071A002640633B00C13FB2 /* SettingsLabelView.swift */,
+				475ECD212640898800BF2ECD /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			files = (
 				47323FD9263F7D130047177D /* FruitData.swift in Sources */,
 				472C658226401C9E0099CC04 /* SourceLinkView.swift in Sources */,
+				475ECD222640898800BF2ECD /* SettingsRowView.swift in Sources */,
 				4721697C263B99ED00AFF5BE /* FruitCardView.swift in Sources */,
 				472C657B263F8F730099CC04 /* FruitRowView.swift in Sources */,
 				470719FD26404F3600C13FB2 /* FruitNutrientsView.swift in Sources */,
@@ -352,7 +356,7 @@
 				DEVELOPMENT_TEAM = 37M9WYPH3S;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Fructus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlos-delcarpio.Fructus";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -374,7 +378,7 @@
 				DEVELOPMENT_TEAM = 37M9WYPH3S;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Fructus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,7 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlos-delcarpio.Fructus";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
