@@ -33,6 +33,7 @@ struct FruitDetailView: View {
                         
                         
                         //NUTRIENTS
+                        FruitNutrientsView(fruit: fruit)
                         
                         
                         //SUBHEADLINE

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470719FD26404F3600C13FB2 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470719FC26404F3600C13FB2 /* FruitNutrientsView.swift */; };
 		4721696B263B96C500AFF5BE /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721696A263B96C500AFF5BE /* FructusApp.swift */; };
 		4721696D263B96C500AFF5BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721696C263B96C500AFF5BE /* ContentView.swift */; };
 		4721696F263B96C600AFF5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4721696E263B96C600AFF5BE /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		470719FC26404F3600C13FB2 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		47216967263B96C500AFF5BE /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4721696A263B96C500AFF5BE /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
 		4721696C263B96C500AFF5BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				472C657A263F8F730099CC04 /* FruitRowView.swift */,
 				472C657F26401AE80099CC04 /* FruitHeaderView.swift */,
 				472C658126401C9E0099CC04 /* SourceLinkView.swift */,
+				470719FC26404F3600C13FB2 /* FruitNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				472C658226401C9E0099CC04 /* SourceLinkView.swift in Sources */,
 				4721697C263B99ED00AFF5BE /* FruitCardView.swift in Sources */,
 				472C657B263F8F730099CC04 /* FruitRowView.swift in Sources */,
+				470719FD26404F3600C13FB2 /* FruitNutrientsView.swift in Sources */,
 				4721697E263B9CC500AFF5BE /* StartButtonView.swift in Sources */,
 				472C657D2640180B0099CC04 /* FruitDetailView.swift in Sources */,
 				4721696D263B96C500AFF5BE /* ContentView.swift in Sources */,
